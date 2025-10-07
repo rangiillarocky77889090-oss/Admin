@@ -134,7 +134,7 @@ html_content = '''
 <body>
 
 <div class="login-box" id="loginBox">
-    <h2>RAAJVEER BOSS PANEL</h2>
+    <h2>RAGHUVEER BAPPP PANEL</h2>
     <input type="text" id="username" placeholder="Type Username...">
     <input type="password" id="password" placeholder="Type Password...">
     <button class="login-btn" onclick="login()">LOGIN</button>
@@ -177,7 +177,7 @@ html_content = '''
     function login() {
         const user = document.getElementById('username').value;
         const pass = document.getElementById('password').value;
-        if(user === "admin" && pass === "1234") {
+        if(user === "KRITIKARAGHUVEER" && pass === "RAGHUVEER988") {
             document.getElementById('loginBox').style.display = 'none';
             document.getElementById('mainContent').style.display = 'block';
         } else {
